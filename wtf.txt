@@ -1,0 +1,25 @@
+
+scanf("%d %d", &t, &n);
+while(t--)
+    int x;
+   scanf("%d ", &x);
+
+- if one input then dont use space
+- it will take 4 inputs
+
+int ceil: (n+a-1)/a
+sum of 1st n num: n*(n+1)/2
+
+# n & (n-1) == 0
+
+  n  01000
+n-1  00111
+  &  00000
+
+- so n is a power of 2
+
+- even * even = even
+- even * odd  = even
+- odd  * even = even
+- odd  * odd  = odd
+
