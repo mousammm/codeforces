@@ -1,6 +1,6 @@
 /*
    1 2 3 4 .. -> n
-   n(low,high)
+   every n(low,high)
    have a total T
    need to distibute exactly T among n 
    each must get between its low and high
