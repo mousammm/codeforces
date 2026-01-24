@@ -13,4 +13,4 @@ Find the min number in a array with index
         }
     }
 
-# Count the num of operation
+# Count the num of occurance of an ele in an array
