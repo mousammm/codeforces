@@ -1,3 +1,1 @@
-# Problem..
-
 - [01-weird algo](https://cses.fi/problemset/task/1068) 
