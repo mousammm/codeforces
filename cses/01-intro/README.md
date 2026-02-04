@@ -1,2 +1,4 @@
 - [01-weird algo](https://cses.fi/problemset/task/1068) 
 - [02-Missing-num](https://cses.fi/problemset/task/1083) 
+- [03-Repetation](https://cses.fi/problemset/task/1069) 
+- [04-Increasing-Array](https://cses.fi/problemset/task/1094) 
