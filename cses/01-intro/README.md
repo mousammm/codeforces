@@ -1,1 +1,2 @@
 - [01-weird algo](https://cses.fi/problemset/task/1068) 
+- [02-Missing-num](https://cses.fi/problemset/task/1083) 
