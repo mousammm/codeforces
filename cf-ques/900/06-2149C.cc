@@ -1,22 +1,40 @@
 /*
  * Title: MEX rose 2026-02-04
  *
- * n : length of the array
- * k : required MEX(a)
- * 0 <= a[n] <= n
- * MEX(a) = k
- *  all int 0,1,2,..,k-1 must be present 
- *  k must not be present
+ * n : no if element for array
+ * k : k should not be in the array
+ * 
+ * mex()
+ * - all ele from 0 to k-1
+ * - k should not be present 
  *
- * example:
- * n = 7 k = 4
- * MEX = 4 -> {0,1,2,3} and 4 absent
- * a[n] = {0, 2, 3, 4, 4, 5, 6}
- *      1/ kk = all the duplicats of k in the array 
- *      2/ cnt(k) = get the missing number for a[n] 
- *         we need ans = 1 for mex()
- *      3/ max(ans, kk) 
- *         max(1 , 2) = 2
+ * eg: 
+ * 6 2 : n k
+ * 0 3 4 2 6 (2) -> mex(1) -> make 2 to 1
+ * 0 3 4 2 6 (1) -> mex(5) -> make 2 to 5
+ * 0 3 4 (5) 6 (1) -> mex(5) -> make 2 to 5
+ * 0 3 4 (5) 6 (1) -> mex(2) -> done in 2 operation
+ *
+ * so final if k = 2
+ * arr[] 
+ *  - 0 1 (we need all num not present from 0 to k-1)
+ *  - k(2) should not be present
+ *
+ * 6 2 : n k
+ * 0 3 4 2 6 2
+ *
+ * 1/ k_cnt = 2 (k is present 2 time in arr)
+ * 2/ f(n+1) = 0 0 0 0 0 0 0
+ *                  i = 0 1 2 3 4 5 6 7
+ *     f[a[0]] = f[0] = 1 0 0 0 0 0 0 0
+ *     f[a[1]] = f[3] = 1 0 0 1 0 0 0 0
+ *     f[a[2]] = f[4] = 1 0 0 1 1 0 0 0
+ *     f[a[3]] = f[2] = 1 0 1 1 1 0 0 0
+ *     f[a[4]] = f[6] = 1 0 1 1 1 0 1 0
+ *     f[a[5]] = f[2] = 1 0 1 1 1 0 1 0
+ *
+ *     for i (0 : k-1)
+ *      if (f[i] == 0) f_cnt++;
  */
 #include <bits/stdc++.h>
 using namespace std;
@@ -26,20 +44,24 @@ using namespace std;
 #define all(x) x.begin(), x.end()
 
 void solve() {
-    ll n, k; cin >> n >> k;
-    vector<ll> a(n), cnt(k, 0);
-    int kk = 0;
+    ll n, k;
+    cin >> n >> k;
+    vector<ll> a(n), f(n+1, 0);
+    int k_cnt = 0;
     for (int i = 0; i < n; i++) {
         cin >> a[i];
-        if (a[i] == k) kk++;
-        if (a[i] < k) cnt[a[i]]++;
+        if (a[i] == k) {
+            k_cnt++;
+        }
+        f[a[i]]++;
     }
-    int ans = 0;
-    for (int i = 0; i < n; i++) {
-        if (!cnt[i]) ans++;
+    int f_cnt = 0;
+    for (int i = 0; i < k; i++) {
+        if (f[i] == 0) {
+            f_cnt++;
+        }
     }
-
-    cout << max(ans, kk) << endl;
+    cout << max(k_cnt, f_cnt) << endl;
 }
 int main() {
     ios_base::sync_with_stdio(0); cin.tie(0);
