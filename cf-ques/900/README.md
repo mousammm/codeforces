@@ -3,4 +3,6 @@
 - [02-2169A](https://codeforces.com/problemset/problem/2168/A) 
 - [04-2166B](https://codeforces.com/problemset/problem/2166/B) 
 - [05-2157B](https://codeforces.com/problemset/problem/2157/B) 
+- [06-2149C](https://codeforces.com/problemset/problem/2149/C) 
+- [07-](https://codeforces.com/problemset/problem//) 
 
