@@ -2,3 +2,5 @@
 - [02-2171B](https://codeforces.com/problemset/problem/2171/B) 
 - [02-2169A](https://codeforces.com/problemset/problem/2168/A) 
 - [04-2166B](https://codeforces.com/problemset/problem/2166/B) 
+- [05-2157B](https://codeforces.com/problemset/problem/2157/B) 
+
