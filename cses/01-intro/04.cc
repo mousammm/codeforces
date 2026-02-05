@@ -11,16 +11,27 @@ using namespace std;
 #define endl '\n'
 
 int main() {
-    ios_base::sync_with_stdio(0); cin.tie(0);
-    ll n; cin >> n;
-    vector<ll> arr(n+1, 0);
-    int cnt = 0;
-    for (int i = 1; i <= n; i++) {
-        cin >> arr[i];
-        if (arr[i] != i) cnt++;
-        cout << arr[i] << " " << i << endl;
+    ios_base::sync_with_stdio(0);
+    cin.tie(0);
+
+    ll n;
+    cin >> n;
+
+    vector<ll> a(n);
+    for (int i = 0; i < n; i++) {
+        cin >> a[i];
     }
-    cout << cnt << endl;
+
+    ll ans = 0;
+    for (int i = 1; i < n; i++) {
+        if (a[i] < a[i-1]) {
+            ans += a[i-1] - a[i];
+            a[i] = a[i-1];
+        }
+    }
+
+    cout << ans << endl;
+
     
     return 0;
 }
