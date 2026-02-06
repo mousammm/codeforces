@@ -5,6 +5,7 @@
 - [05-2157B](https://codeforces.com/problemset/problem/2157/B) 
 - [06-2149C](https://codeforces.com/problemset/problem/2149/C) 
 - [07-2148C](https://codeforces.com/problemset/problem/2148/C) 
-- [08-](https://codeforces.com/problemset/problem//) 
+- [08-2140B](https://codeforces.com/problemset/problem/2140/B) 
+- [09-](https://codeforces.com/problemset/problem//) 
 
 
