@@ -1,0 +1,8 @@
+TOPICS <= 1100
+maths: algebra/geometry/numberTheory/Combinatorics
+constructive/greedy algo
+prefix/suffix sum
+difference array
+two pointers: sliding window
+binary search;
+dp;
