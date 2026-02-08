@@ -22,7 +22,7 @@ int main() {
     for (int i = 0; i < n.size() - 1; i++) {
         if (n[i] == n[i+1]) {
             cnt++;
-            max_dna = max(cnt, max_dna);
+            max_dna = max(max_dna, cnt);
         } else {
             cnt = 1;
         }

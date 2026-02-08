@@ -2,6 +2,12 @@
  * Title : Increasing Array 2026-02-04
  *
  * given:
+ * n : integer 
+ * a[n] : 3 2 5 1 7
+ * if ai > ai+1
+ * - make ai = ai+1
+ * - and store the diff 
+ * goal : output the total difference
  */
 
 #include <bits/stdc++.h>
@@ -31,7 +37,6 @@ int main() {
     }
 
     cout << ans << endl;
-
     
     return 0;
 }

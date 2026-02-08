@@ -1,9 +1,11 @@
-c++
+C++
+-----------------------------------
 arrays/strings
 vector
 maps/sets
 
-TOPICS <= 1100
+TOPICS <= 1100 
+-----------------------------------
 maths: algebra/geometry/numberTheory/Combinatorics
 constructive/greedy algo
 prefix/suffix sum
