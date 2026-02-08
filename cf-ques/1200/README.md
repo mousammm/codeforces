@@ -1,0 +1,4 @@
+- [01-466A](https://codeforces.com/problemset/problem/466/A) 
+- [02-1909B](https://codeforces.com/problemset/problem/1909/B) 
+- [03-1914D](https://codeforces.com/problemset/problem/1914/D) 
+- [04-2190A](https://codeforces.com/problemset/problem/2190/A) 
