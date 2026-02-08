@@ -1,0 +1,3 @@
+1100:
+- have 2 arrays performs operation
+- then have a l and r range to perform on this 
