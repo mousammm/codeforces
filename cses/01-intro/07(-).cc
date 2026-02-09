@@ -1,6 +1,7 @@
 /*
  * Title : Two Knight 2026-02-09
- * Topic : Combinatorics 
+ * Topic : Maths(greedy), Combinatorics(Optimal)
+ *
  * given:
  * n = 8
  * so all grid will be 64

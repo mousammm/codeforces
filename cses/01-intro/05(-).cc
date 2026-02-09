@@ -1,5 +1,6 @@
 /*
  * Title : Permutation 2026-02-08
+ * Topic : Math, Combinatorics
  *
  * given:
  * n : integer

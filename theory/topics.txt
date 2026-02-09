@@ -5,6 +5,11 @@ arrays/strings
 vector
 maps/sets
 
+HIPHEN
+-----------------------------------
+modulo operation
+binary exponation
+
 TOPICS <= 1100 
 -----------------------------------
 maths: algebra/geometry/numberTheory/Combinatorics

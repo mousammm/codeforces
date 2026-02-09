@@ -1,5 +1,6 @@
 /*
  * Title: Weird Algo 2026-01-27
+ * Topic : Implementaion
  *
  * given:
  * n : is

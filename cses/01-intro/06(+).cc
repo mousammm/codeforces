@@ -1,8 +1,15 @@
 /*
  * Title : Number Sprial 2026-02-08
+ * Topic : Math
+ *
  * col -> x axis (horizontal)
  * row -> y axis (vertical)
- *  
+ *
+ *  1  2  9 10
+ *  4  3  8 11
+ *  5  6  7 12 
+ * 16 15 14 13
+ *
  * given:
  *   row col
  *    y   x
