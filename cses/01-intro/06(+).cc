@@ -4,7 +4,17 @@
  * row -> y axis (vertical)
  *  
  * given:
- */
+ *   row col
+ *    y   x
+ *   row > col (horizontal)
+ *     when row 
+ *       - even
+ *       - odd
+ *   row <= col (vertical)
+ *     when col
+ *       - even
+ *       - odd
+ */  
 
 #include <bits/stdc++.h>
 using namespace std;
@@ -16,6 +26,20 @@ using namespace std;
 void solve() {
     int row, col;
     cin >> row >> col;
+
+    if (row <= col) {
+        if (col % 2 == 0) {
+            cout << ((col - 1) * (col - 1) + 1) + (row - 1) << endl;
+        } else {
+            cout << col * col - (row - 1) << endl;
+        }
+    } else if (row > col) {
+        if (row % 2 == 0) {
+            cout << row * row - (col - 1) << endl;
+        } else {
+            cout << ((row - 1) * (row - 1) + 1) + (col - 1) << endl;
+        }
+    }
 }
 
 int32_t main() {
