@@ -4,4 +4,5 @@
 - [04-Increasing-Array](https://cses.fi/problemset/task/1094) 
 - [05-Permutations](https://cses.fi/problemset/task/1070) 
 - [06-NumberSpiral](https://cses.fi/problemset/task/1071) 
+- [07-TwoKnight](https://cses.fi/problemset/task/1072) 
 - [07-](https://cses.fi/problemset/task/1070) 
