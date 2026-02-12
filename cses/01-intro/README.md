@@ -8,4 +8,5 @@
 - [08-TwoSets](https://cses.fi/problemset/task/1092) 
 - [09-BitStrings](https://cses.fi/problemset/task/1617) 
 - [10-TralingZeros](https://cses.fi/problemset/task/1618) 
+- [11-CoinPile](https://cses.fi/problemset/task/1754) 
 - [07-](https://cses.fi/problemset/task/1070) 
